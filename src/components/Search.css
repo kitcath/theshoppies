@@ -1,0 +1,27 @@
+*{
+    font-family: 'Lora', serif;
+    overflow:none;
+}
+
+.search-box{
+    height: 30px;
+    width: 800px;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    transform: translateY(100px);
+    background-color: white;
+    font-size:15px;
+    color:black;
+}
+
+.movie-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    height: 100vh;
+    overflow:auto;
+    justify-content: center;
+    margin-top:10px;
+}

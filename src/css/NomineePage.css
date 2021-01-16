@@ -1,0 +1,19 @@
+.page-name{
+    background: transparent;
+    font-size: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 20x;
+    justify-content: center;
+    display: flex;
+}
+
+.nominee-page-container{
+        display:flex;
+        flex-direction: row;
+        flex-wrap:nowrap;
+        height: 90vh;
+        overflow:auto;
+        margin-top:10px;
+        overflow-y: hidden;
+}

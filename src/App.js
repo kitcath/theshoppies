@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {Navbar} from './components/Navbar';
+import Landing from './components/Landing';
+import Search from './components/Search';
+
+import {GlobalProvider} from './context/globalState';
+import { NomineePage } from './page/NomineePage';
+import { Nominees } from './components/Nominees';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <GlobalProvider>
+
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route exact path="/">
+          <Landing />
+        </Route>
+        <Route path="/nominations">
+          <NomineePage />
+        </Route>
+
+        <Route path="/browse">
+          <Search />
+        </Route>
+      </Switch>
+    </Router>
+
+  </GlobalProvider>
   );
 }
 
