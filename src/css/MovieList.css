@@ -43,14 +43,12 @@
     transform: translateY(-60px);
 }
 
- .image:hover, .btn:hover {
+ .image:hover {
     transform:scale(1.1);
     opacity:0.6;
 }
 
-.btn:hover{
-    background-color: green;
-}
+
 .overlay:hover{
     background-color:transparent;
     opacity:1;
@@ -69,7 +67,16 @@
     margin-top:10px
   
 }
-.btn{
+.btn-add{
+    margin:30px;
+    height: 30px;
+    font-size:15px;
+    margin-top:10px;
+    font-family: 'Lora', serif;
+}
+
+.btn-add:disabled, btn-add[disabled]{
+    background-color: darkolivegreen;
     margin:30px;
     height: 30px;
     font-size:15px;

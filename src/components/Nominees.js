@@ -28,7 +28,7 @@ export const Nominees = () => {
                         <div className="overlay">
                               <button 
                               className="btn-remove"
-                              onClick={() => {removeMovieFromNominationList(aMovie.id)}}
+                              onClick={() => {removeMovieFromNominationList(aMovie)}}
                               > Remove</button>
                         </div>   
                     </div>

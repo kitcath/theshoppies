@@ -2,14 +2,11 @@ import React, {useContext} from 'react';
 import '../css/MovieList.css';
 import {GlobalContext} from '../context/globalState';
 
-export const MovieList = ({movies}) => {
-    
+export const MovieList = ({movies}) => { 
     const {
         addMovieToNominationList,
-        nominationList
     } = useContext (GlobalContext)
 
-       
     if (! movies || movies.length === 0){
         return (
             <div>
@@ -28,7 +25,7 @@ export const MovieList = ({movies}) => {
                         </div>
                         <div className="overlay">
                               <button 
-                              className="btn"
+                              className="btn-add"
                               onClick= {() => addMovieToNominationList(aMovie)}> Nominate</button>
                         </div>   
                 
