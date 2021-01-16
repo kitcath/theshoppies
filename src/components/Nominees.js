@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import {GlobalContext} from '../context/globalState';
-import './Nominees.css';
+import '../css/Nominees.css';
 
 
 export const Nominees = () => {
@@ -10,7 +10,7 @@ export const Nominees = () => {
         return (
             <>
                 <div className="null">
-                    <h4 className="null"> Loading...</h4>
+                    <h4 className="loading"> No Nominees yet!</h4>
                 </div>
             </>
         );  

@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-import './MovieList.css';
+import '../css/MovieList.css';
 import {GlobalContext} from '../context/globalState';
 
 export const MovieList = ({movies}) => {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { MovieList } from './MovieList';
-import './Search.css';
+import '../css/Search.css';
 import styled from 'styled-components';
 import image from '../images/navbar.png';
 
@@ -40,7 +40,6 @@ const Search = () => {
     getMovieRequest(query);
   }, [query]);
 
-
     return (
         <>
         
@@ -57,17 +56,6 @@ const Search = () => {
                 <MovieList movies = {movies} />
             </div>
         </>
-     /*   <div className="browse-page">
-            <div className="search-container">
-                        <div className="bar">
-                           
-                        </div>
-                </div>
-                 <div className="movie-results">
-                     <MovieList movies={movies} />
-                </div>
-         
-        </div>*/
     )
 }
 
