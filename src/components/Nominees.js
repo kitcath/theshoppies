@@ -5,6 +5,7 @@ import '../css/Nominees.css';
 
 export const Nominees = () => {
     const { nominationList } = useContext (GlobalContext);
+    const {removeMovieFromNominationList} = useContext(GlobalContext);
     
     if (! nominationList || nominationList.length === 0){
         return (
@@ -26,7 +27,8 @@ export const Nominees = () => {
                         </div>
                         <div className="overlay">
                               <button 
-                              className="btn"
+                              className="btn-remove"
+                              onClick={() => {removeMovieFromNominationList(aMovie.id)}}
                               > Remove</button>
                         </div>   
                     </div>

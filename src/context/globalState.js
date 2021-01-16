@@ -18,13 +18,20 @@ export const GlobalProvider = props => {
     }, [state])
     //actions: when adding to nominate button
     const addMovieToNominationList = movie =>{
+
         dispatch({type: "ADD_MOVIE_TO_NOMINATIONLIST", payload: movie});
+    }
+
+    //to remove movies
+    const removeMovieFromNominationList = (id) => {
+        dispatch({type: "REMOVE_MOVIE_FROM_NOMINATIONLIST", payload:id})
     }
 
     return (
         <GlobalContext.Provider value={{
             nominationList: state.nominationList,
             addMovieToNominationList,
+            removeMovieFromNominationList,
             }}
         >
             {props.children}

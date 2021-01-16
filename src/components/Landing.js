@@ -63,7 +63,7 @@ function Landing() {
             <Section>
                 <Container>
                     <h1> The Shoppies</h1>
-                    <button onClick={() => history.push('/nominations')}>Start Nominating</button>
+                    <button onClick={() => history.push('/browse')}>Start Nominating</button>
                 </Container>
              </Section>
              </>

@@ -6,7 +6,12 @@ export default (state, action) => {
             return {
                 ...state,
                 nominationList:[action.payload, ...state.nominationList],
-            }
+            };
+            case "REMOVE_MOVIE_FROM_NOMINATIONLIST":
+                return {
+                    ...state,
+                    nominationList: state.nominationList.filter((movie) => movie.id !== action.payload),
+                }
         default:
             return state;
     } //end of switch 

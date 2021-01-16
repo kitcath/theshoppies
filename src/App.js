@@ -4,10 +4,9 @@ import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import {Navbar} from './components/Navbar';
 import Landing from './components/Landing';
 import Search from './components/Search';
-
 import {GlobalProvider} from './context/globalState';
 import { NomineePage } from './page/NomineePage';
-import { Nominees } from './components/Nominees';
+
 
 function App() {
   return (

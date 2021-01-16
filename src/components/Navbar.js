@@ -11,8 +11,8 @@ export const Navbar = () => {
                     <Link to="/" className="L">The Shoppies</Link>
                 </div>
                 <div className="NavItems">
-                     <Link to="/nominations">Nomination List</Link> 
-                     <Link to="/browse" className="btn">+nominate</Link>
+                     <Link to="/nominations" className="nomList">Nomination List</Link> 
+                     <Link to="/browse" className="btn"> Browse Movies</Link>
                 </div>
         </div>
             
