@@ -1,6 +1,3 @@
-import React from 'react';
-
-
 
 /*returns state data: describes how state is transfered to new state*/
 export default (state, action) => {

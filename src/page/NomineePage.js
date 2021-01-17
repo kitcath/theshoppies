@@ -26,6 +26,9 @@ export const NomineePage = () => {
             <div className="nominee-page-container">
                   <Nominees />
             </div>
+            <button className="submit">
+                                Submit
+            </button>
         </>
     )
 }

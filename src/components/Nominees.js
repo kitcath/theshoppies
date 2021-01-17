@@ -30,9 +30,10 @@ export const Nominees = () => {
                               className="btn-remove"
                               onClick={() => {removeMovieFromNominationList(aMovie)}}
                               > Remove</button>
-                        </div>   
+                        </div> 
+                        <div className="done">
+                        </div>  
                     </div>
-                  
                 </div>
             )
         })
