@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/git@github.com:kitcath/theshoppies.git/static/css/main.b5dd7b02.chunk.css",
-    "main.js": "/git@github.com:kitcath/theshoppies.git/static/js/main.83bd2176.chunk.js",
-    "main.js.map": "/git@github.com:kitcath/theshoppies.git/static/js/main.83bd2176.chunk.js.map",
-    "runtime-main.js": "/git@github.com:kitcath/theshoppies.git/static/js/runtime-main.bd19c8bf.js",
-    "runtime-main.js.map": "/git@github.com:kitcath/theshoppies.git/static/js/runtime-main.bd19c8bf.js.map",
-    "static/js/2.bceffb80.chunk.js": "/git@github.com:kitcath/theshoppies.git/static/js/2.bceffb80.chunk.js",
-    "static/js/2.bceffb80.chunk.js.map": "/git@github.com:kitcath/theshoppies.git/static/js/2.bceffb80.chunk.js.map",
-    "static/js/3.56158f8b.chunk.js": "/git@github.com:kitcath/theshoppies.git/static/js/3.56158f8b.chunk.js",
-    "static/js/3.56158f8b.chunk.js.map": "/git@github.com:kitcath/theshoppies.git/static/js/3.56158f8b.chunk.js.map",
-    "index.html": "/git@github.com:kitcath/theshoppies.git/index.html",
-    "static/css/main.b5dd7b02.chunk.css.map": "/git@github.com:kitcath/theshoppies.git/static/css/main.b5dd7b02.chunk.css.map",
-    "static/js/2.bceffb80.chunk.js.LICENSE.txt": "/git@github.com:kitcath/theshoppies.git/static/js/2.bceffb80.chunk.js.LICENSE.txt",
-    "static/media/Cinema.1b2ec185.jpg": "/git@github.com:kitcath/theshoppies.git/static/media/Cinema.1b2ec185.jpg",
-    "static/media/navbar.343a389d.png": "/git@github.com:kitcath/theshoppies.git/static/media/navbar.343a389d.png"
+    "main.css": "/static/css/main.b5dd7b02.chunk.css",
+    "main.js": "/static/js/main.06917f9c.chunk.js",
+    "main.js.map": "/static/js/main.06917f9c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.697718e3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.697718e3.js.map",
+    "static/js/2.f35a7098.chunk.js": "/static/js/2.f35a7098.chunk.js",
+    "static/js/2.f35a7098.chunk.js.map": "/static/js/2.f35a7098.chunk.js.map",
+    "static/js/3.56158f8b.chunk.js": "/static/js/3.56158f8b.chunk.js",
+    "static/js/3.56158f8b.chunk.js.map": "/static/js/3.56158f8b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b5dd7b02.chunk.css.map": "/static/css/main.b5dd7b02.chunk.css.map",
+    "static/js/2.f35a7098.chunk.js.LICENSE.txt": "/static/js/2.f35a7098.chunk.js.LICENSE.txt",
+    "static/media/Cinema.1b2ec185.jpg": "/static/media/Cinema.1b2ec185.jpg",
+    "static/media/navbar.343a389d.png": "/static/media/navbar.343a389d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.bd19c8bf.js",
-    "static/js/2.bceffb80.chunk.js",
+    "static/js/runtime-main.697718e3.js",
+    "static/js/2.f35a7098.chunk.js",
     "static/css/main.b5dd7b02.chunk.css",
-    "static/js/main.83bd2176.chunk.js"
+    "static/js/main.06917f9c.chunk.js"
   ]
 }
