@@ -34,7 +34,7 @@ export const NomineePage = () => {
                 removeMovieFromNominationList(movie);
             })
             alert("Your nominees were saved!");
-            window.location.href= "/";
+            window.location.href= "https://kitcath.github.io/";
         }
     }
     return (
