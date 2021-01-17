@@ -3,7 +3,7 @@ import AppReducer from "./AppReducer";
 
 //initial state 
 const initialState = {
-    nominationList: localStorage.getItem('nominationList') ? JSON.parse(localStorage.getItem('nominationList') ) : []
+    nominationList:  []
 };
 
 //create context 
