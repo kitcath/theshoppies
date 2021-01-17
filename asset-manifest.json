@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/theshoppies/static/css/main.b5dd7b02.chunk.css",
-    "main.js": "/theshoppies/static/js/main.f95d2ea4.chunk.js",
-    "main.js.map": "/theshoppies/static/js/main.f95d2ea4.chunk.js.map",
-    "runtime-main.js": "/theshoppies/static/js/runtime-main.c84e1456.js",
-    "runtime-main.js.map": "/theshoppies/static/js/runtime-main.c84e1456.js.map",
-    "static/js/2.c09252c4.chunk.js": "/theshoppies/static/js/2.c09252c4.chunk.js",
-    "static/js/2.c09252c4.chunk.js.map": "/theshoppies/static/js/2.c09252c4.chunk.js.map",
-    "static/js/3.56158f8b.chunk.js": "/theshoppies/static/js/3.56158f8b.chunk.js",
-    "static/js/3.56158f8b.chunk.js.map": "/theshoppies/static/js/3.56158f8b.chunk.js.map",
+    "main.css": "/theshoppies/static/css/main.7c8ad791.chunk.css",
+    "main.js": "/theshoppies/static/js/main.71c2f57e.chunk.js",
+    "main.js.map": "/theshoppies/static/js/main.71c2f57e.chunk.js.map",
+    "runtime-main.js": "/theshoppies/static/js/runtime-main.2ab352e6.js",
+    "runtime-main.js.map": "/theshoppies/static/js/runtime-main.2ab352e6.js.map",
+    "static/js/2.2d74f2e2.chunk.js": "/theshoppies/static/js/2.2d74f2e2.chunk.js",
+    "static/js/2.2d74f2e2.chunk.js.map": "/theshoppies/static/js/2.2d74f2e2.chunk.js.map",
+    "static/js/3.c30ba4a8.chunk.js": "/theshoppies/static/js/3.c30ba4a8.chunk.js",
+    "static/js/3.c30ba4a8.chunk.js.map": "/theshoppies/static/js/3.c30ba4a8.chunk.js.map",
     "index.html": "/theshoppies/index.html",
-    "static/css/main.b5dd7b02.chunk.css.map": "/theshoppies/static/css/main.b5dd7b02.chunk.css.map",
-    "static/js/2.c09252c4.chunk.js.LICENSE.txt": "/theshoppies/static/js/2.c09252c4.chunk.js.LICENSE.txt",
+    "static/css/main.7c8ad791.chunk.css.map": "/theshoppies/static/css/main.7c8ad791.chunk.css.map",
+    "static/js/2.2d74f2e2.chunk.js.LICENSE.txt": "/theshoppies/static/js/2.2d74f2e2.chunk.js.LICENSE.txt",
     "static/media/Cinema.1b2ec185.jpg": "/theshoppies/static/media/Cinema.1b2ec185.jpg",
     "static/media/navbar.343a389d.png": "/theshoppies/static/media/navbar.343a389d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c84e1456.js",
-    "static/js/2.c09252c4.chunk.js",
-    "static/css/main.b5dd7b02.chunk.css",
-    "static/js/main.f95d2ea4.chunk.js"
+    "static/js/runtime-main.2ab352e6.js",
+    "static/js/2.2d74f2e2.chunk.js",
+    "static/css/main.7c8ad791.chunk.css",
+    "static/js/main.71c2f57e.chunk.js"
   ]
 }
