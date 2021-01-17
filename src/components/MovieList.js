@@ -17,7 +17,6 @@ export const MovieList = ({movies}) => {
         const storedMovie = isDisabled ? true : false;
         return storedMovie;
     }
-    
 
     if (! movies || movies.length === 0){
         return (
