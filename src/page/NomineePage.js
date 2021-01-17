@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import image from '../images/navbar.png';
 import styled from 'styled-components';
 import '../css/NomineePage.css';
 import { Nominees } from '../components/Nominees';
+import {GlobalContext} from '../context/globalState';
 
 const Section = styled.section
 `
@@ -17,18 +18,38 @@ const Section = styled.section
     align-items: flex-end;
     margin-top: -60px;
 `;
+
+
 export const NomineePage = () => {
+    const {
+        removeMovieFromNominationList,
+        nominationList
+    } = useContext (GlobalContext)
+
+    const validate =() => {
+        if (nominationList.length === 0){
+            alert("You must nominate at least 1 movie!")
+        }else {
+            nominationList.map((movie) => {
+                removeMovieFromNominationList(movie);
+            })
+            alert("Your nominees were saved!");
+            window.location.href= "/";
+        }
+    }
     return (
         <>
             <Section>
-                <h4 className="page-name"> Your Nominations</h4>
+                <div className="header">
+                    <h4 className="page-name"> Your Nominations</h4>
+                    <div className="submit-container">
+                     <button className="submit-btn" onClick={validate}> Submit </button>
+                </div> 
+            </div>
             </Section> 
             <div className="nominee-page-container">
                   <Nominees />
-            </div>
-            <button className="submit">
-                                Submit
-            </button>
+            </div> 
         </>
     )
 }

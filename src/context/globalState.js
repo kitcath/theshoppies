@@ -3,8 +3,8 @@ import AppReducer from "./AppReducer";
 
 //initial state 
 const initialState = {
-    nominationList:  []
-};
+    nominationList: window.localStorage.getItem('nominationList') ? JSON.parse(window.localStorage.getItem('nominationList')) : [],
+}
 
 //create context 
 export const GlobalContext = createContext(initialState);
@@ -15,8 +15,9 @@ export const GlobalProvider = props => {
 
 //will save nominees concurrently
     useEffect (() => {
-       localStorage.setItem("nominationList", JSON.stringify(state.nominationList))
+       window.localStorage.setItem("nominationList", JSON.stringify(state.nominationList));
     }, [state])
+
 
     //actions: when adding to nominate button
     const addMovieToNominationList = movie =>{
@@ -25,7 +26,7 @@ export const GlobalProvider = props => {
 
     //to remove movies
     const removeMovieFromNominationList = (movie) => {
-        dispatch({type: "REMOVE_MOVIE_FROM_NOMINATIONLIST", payload:movie})
+        dispatch({type: "REMOVE_MOVIE_FROM_NOMINATIONLIST", payload:movie});
     }
 
     return (

@@ -8,6 +8,9 @@
     display: flex;
 }
 
+.header{
+    justify-content: center;
+}
 .nominee-page-container{
         display:flex;
         flex-direction: row;
@@ -16,4 +19,15 @@
         overflow:auto;
         margin-top:10px;
         overflow-y: hidden;
+}
+
+.submit-container{
+    justify-content: center;
+    transform: translate(700px, -40px);
+}
+.submit-btn{
+    height: 30px;
+    width: 150px;
+
+
 }
