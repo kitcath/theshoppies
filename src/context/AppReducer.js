@@ -16,7 +16,12 @@ export default (state, action) => {
                     };
             }
             if(state.nominationList.find(o => o.imdbID === action.payload.imdbID)){
-                alert("cant nominate more than once!");
+                if(state.nominationList.length > 4) {
+                    alert("cant nominate " + action.payload.Title + "more than once!");
+                    alert("your nomination list is full!");
+                }else {
+                    alert("cant nominate " + action.payload.Title + "more than once!")
+                }
                 return{
                     ...state,
                     nominationList: [...state.nominationList]
