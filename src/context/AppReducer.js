@@ -33,8 +33,7 @@ export default (state, action) => {
                     nominationList: [...state.nominationList]
                 };
             }else if (state.nominationList.length === 4){
-                alert("You reached the maximum number of nominees! Please view your selection in the NOMINATION LIST tab. ")
-        
+                alert("You reached the maximum number of nominees! Please view your selection in the NOMINATION LIST tab. ");
                 return {
                     ...state,
                     nominationList:[action.payload, ...state.nominationList],
