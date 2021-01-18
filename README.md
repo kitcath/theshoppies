@@ -6,6 +6,12 @@ The website will allow a user to select their favourite films they should be up 
 
 The user must click on " Browse Movies" to access the search area. They can then search the OMDB API by title and it will displat the movie results only. 
 To view all the movies, the user, must, at times, swipe right to view all the results. The user can add movies from the search results to the nomination list by lcickong on the "nominate" button. Once they reach 5 nominations, an alert will be called and the user can view the nomination list under the "Nomination List" tab. They can either remove some movies or submit their nominations. The user can also close the tab and their nomination list will still be accessed, by reopening the page. 
+
+# Some Additional Effects 
+  
+  -Save nomination list if the user leavers the page
+  
+  -Animation
    
 
 # Getting Started with Create React App
