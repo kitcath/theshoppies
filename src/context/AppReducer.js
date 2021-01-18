@@ -34,6 +34,7 @@ export default (state, action) => {
                 };
             }else if (state.nominationList.length === 4){
                 alert("You reached the maximum number of nominees! Please view your selection in the NOMINATION LIST tab. ")
+        
                 return {
                     ...state,
                     nominationList:[action.payload, ...state.nominationList],
@@ -44,7 +45,6 @@ export default (state, action) => {
                 nominationList:[action.payload, ...state.nominationList],
                 };
             };
-
         default:
             return state;
     } //end of switch 
